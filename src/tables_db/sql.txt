@@ -1,0 +1,12 @@
+CREATE TABLE symbols (
+    symbol VARCHAR(50) NOT NULL,
+    date DATE NOT NULL,
+    open DECIMAL(10, 2),
+    high DECIMAL(10, 2),
+    low DECIMAL(10, 2),
+    close DECIMAL(10, 2)
+);
+
+ALTER USER username WITH PASSWORD 'databiz232';
+
+
